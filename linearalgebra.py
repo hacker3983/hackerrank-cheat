@@ -34,4 +34,4 @@ import numpy
 
 N = int(input())
 A = numpy.array([map(float,input().split()) for i in range(N)])
-print numpy.linalg.det(A)
+print( numpy.linalg.det(A))
